@@ -4,4 +4,5 @@ Git has a mutable index called stage.
 Git tracks changes of files puhaha
   again
 again again
-pu 
+pu
+Creating a new branch is quick AND simple 
