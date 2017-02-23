@@ -5,3 +5,4 @@ Git tracks changes of files puhaha
   again
 again again
 pu 
+Creating a new branch is quick & simple
