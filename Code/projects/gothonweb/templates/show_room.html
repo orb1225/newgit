@@ -1,0 +1,21 @@
+$def with(room,count)
+
+<div id="header" style="color:#EE872A;text-align:center">
+<h1 style="margin-bottom:0">$room.name</h1></div>
+
+<div style="font-family:verdana;padding:20px;border-radius:10px;border:10px solid #EE872A;float:left">
+<div id="content" style="color:#000000;background-color:#FFFFFF;float:left;">
+<h3>$room.description</h3>
+</div>
+
+
+$if room.name=="death":
+	<p><a href="/start">Play Again</a></p>
+$else:
+	<p>
+	<form action="/game" method="POST">
+		-<input type="text" name="action"><input type="SUBMIT">
+	</form>
+	</p>
+<h3>your current scort:$count</h3>
+</div>
